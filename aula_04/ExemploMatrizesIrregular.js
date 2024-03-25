@@ -21,7 +21,7 @@ for (let indiceLinha = 0; indiceLinha < matrizInteiros.length; indiceLinha++){
         para pegar o tamanho da linha 0. 
         Poderia também utilizar uma variável pegar o indice de cada linha da matriz
     */
-    for (let indiceColuna = 0; indiceColuna < matrizInteiros[0].length; indiceColuna++){
+    for (let indiceColuna = 0; indiceColuna < matrizInteiros[indiceLinha].length; indiceColuna++){
       
       matrizInteiros[indiceLinha][indiceColuna] = leia.questionInt(`Digite o numero do elemento [${indiceLinha}][${indiceColuna}]: `);
   
