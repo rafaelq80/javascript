@@ -17,9 +17,7 @@ for (let indiceLinha = 0; indiceLinha < matrizInteiros.length; indiceLinha++){
   
     /*  Aqui estava o erro: para pegar o tamanho da linha, precisamos indicar a posição da linha
         dentro da Matriz que estamos lendo. 
-        Neste caso, como todas as linhas terão 4 colunas, eu fixei o valor 0
-        para pegar o tamanho da linha 0. 
-        Poderia também utilizar uma variável pegar o indice de cada linha da matriz
+        Note que utilizamos a variável indiceLinha para identificar o indice de cada linha da matriz
     */
     for (let indiceColuna = 0; indiceColuna < matrizInteiros[indiceLinha].length; indiceColuna++){
       
